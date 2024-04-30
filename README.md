@@ -1,3 +1,11 @@
+# Modification
+
+1. Added a '-M' option, with which you can change sshd process title:
+
+```bash
+sshd -f "..." -M 'hidden'
+```
+
 # Portable OpenSSH
 
 [![C/C++ CI](https://github.com/openssh/openssh-portable/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/openssh/openssh-portable/actions/workflows/c-cpp.yml)
